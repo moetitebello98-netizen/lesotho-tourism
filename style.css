@@ -1,0 +1,222 @@
+
+
+body {
+    margin: 0;
+    color: #31242d;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+.site-nav {
+    background-color: #103715;
+}
+
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    margin-left: 5px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #f2bd42 !important;
+}
+
+
+.hero {
+    background-image: url("../assets/images/lesotho-mountains.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+
+.hero-shade {
+    background: linear-gradient(
+        to right,
+        rgba(8, 28, 22, 0.85),
+        rgba(8, 28, 22, 0.25)
+    );
+
+    min-height: 440px;
+    display: flex;
+    align-items: center;
+}
+
+
+.btn-gold {
+    background-color: #f26842;
+    border: 2px solid #f2bd42;
+    color: #2a2a1c;
+    font-weight: bold;
+}
+
+.btn-gold:hover {
+    background-color: #ffd36c;
+    border-color: #ff6cc2;
+    color: #2a221c;
+}
+
+
+.section-space {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.section-intro {
+    color: #5d6a63;
+}
+
+
+.destination-card {
+    border: none;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(16, 55, 44, 0.1);
+    transition: 0.3s;
+}
+
+
+.destination-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(16, 55, 44, 0.18);
+}
+
+
+.destination-card img {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.btn-outline-success {
+    border-color: #4c1718;
+    color: #174c3c;
+}
+
+.btn-outline-success:hover {
+    background-color: #174c3c;
+    border-color: #4c171c;
+}
+
+
+.feature-band {
+    background-color: #3c4c17;
+    color: white;
+}
+
+
+.page-banner {
+    padding: 50px 0;
+    background: linear-gradient(to right, #151037, #4c2617);
+    color: white;
+}
+
+.page-banner h1 {
+    font-weight: bold;
+}
+
+.page-banner p {
+    margin-bottom: 0;
+    color: #e4eee8;
+}
+
+
+.destination-detail img {
+    width: 100%;
+    max-height: 340px;
+    object-fit: cover;
+}
+
+
+.carousel-photo {
+    height: 450px;
+    min-height: 280px;
+    object-fit: cover;
+    filter: brightness(82%);
+}
+
+
+.carousel-caption {
+    text-shadow: 0 2px 8px black;
+}
+
+
+.gallery-thumb {
+    width: 100%;
+    padding: 0;
+    border: none;
+    background-color: #10372c;
+    color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: left;
+}
+
+
+.gallery-thumb img {
+    display: block;
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+
+.gallery-thumb:hover img,
+.gallery-thumb:focus img {
+    transform: scale(1.04);
+}
+
+
+.gallery-thumb span {
+    display: block;
+    padding: 10px;
+}
+
+
+.contact-panel {
+    padding: 25px;
+    border-left: 5px solid #f2bd42;
+    border-radius: 8px;
+    background-color: #f7f5ef;
+}
+
+
+.site-footer {
+    padding: 20px 0;
+    color: #e6eee9;
+    background-color: #0d2b22;
+    font-size: 15px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #174c3c;
+    box-shadow: 0 0 0 3px rgba(23, 76, 60, 0.15);
+}
+
+/
+@media screen and (max-width: 576px) {
+
+    .hero-shade {
+        min-height: 390px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .section-space {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .gallery-thumb img {
+        height: 150px;
+    }
+}
